@@ -1,0 +1,53 @@
+- category: Personal
+  works:
+    - name: Chase the Circle!
+      description: A simple circle-chasing game.
+      links:
+        - text: Site Page
+          url: https://shamankares.github.io/chase-the-circle
+        - text: Repository
+          url: https://github.com/shamankares/chase-the-circle
+    - name: Colors Palette Generator
+      description: A web application for generating colors palette in an image with K-Means Clustering.
+      links:
+        - text: Site Page
+          url: https://shamankares.github.io/color-palette-generator
+        - text: Repository
+          url: https://github.com/shamankares/color-palette-generator
+    - name: Nosense Word Generator
+      description: A web application to generate some made-up words.
+      links:
+        - text: Site Page
+          url: https://shamankares.github.io/nosense-word-generator
+        - text: Repository
+          url: https://github.com/shamankares/nosense-word-generator
+
+- category: Assignment
+  works:
+    - name: Just for Farm
+      description: A fun yet simple farming game. This is a team assignment for Computer Graphics course.
+      links:
+        - text: Releases
+          url: https://github.com/shamankares/just-for-farm/releases
+        - text: Repository
+          url: https://github.com/shamankares/just-for-farm
+    - name: Histogram Specifcation Application
+      description: A web application for manipulating an image with histogram specification. This is a team assignment for Digital Image Processing course.
+      links:
+        - text: Site Page
+          url: https://shamankares.github.io/hist-spec
+        - text: Repository
+          url: https://github.com/shamankares/hist-spec
+
+- category: Team Project
+  works:
+    - name: Dietan
+      description: A calorie control mobile app for Bangkit capstone project. I developed a model for <abbr title="Honestly I think that's an overkill...">predicting calorie recommendation based on BMI, age, and gender.</abbr>
+      links:
+        - text: Main Repository
+          url: https://github.com/sabrinayose/dietan
+    - name: BPS CEPAT
+      description: A data dashboard web application for providing information on local government performance. This is a team project for intership at Badan Pusat Statistik Provinsi Kepulauan Riau.
+      links:
+        - text: Site Page
+          url: https://bps-cepat.vercel.app/

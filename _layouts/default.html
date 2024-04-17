@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/assets/css/styles.css">
+
+  <title>ShamanKares - {{ page.title }}{% if page.subtitle %} - {{ page.subtitle }} {% endif %}</title>
+</head>
+
+<body>
+  <div class="page">
+    <section id="head" class="box">
+      {%- include header.html -%}
+    </section>
+
+    <section id="nav" class="box">
+      {%- include navigation.html -%}
+    </section>
+
+    <section id="main" class="box">
+      <div id="content">
+        <h2>{{ page.title }}</h2>
+        {{ content }}
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    {%- include footer.html -%}
+  </footer>
+</body>
+
+<script src="/assets/js/main.js"></script>
+
+</html>
